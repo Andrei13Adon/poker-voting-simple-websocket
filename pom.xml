@@ -10,6 +10,7 @@
     <version>${revision}</version>
     <modules>
         <module>server</module>
+        <module>client</module>
         <module>install</module>
     </modules>
 
