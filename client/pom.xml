@@ -29,7 +29,7 @@
                     <archive><!-- Runnable part -->
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.maa.poker.voting.server.StartUpPoint</mainClass>
+                            <mainClass>com.maa.poker.voting.client.StartUpPoint</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
