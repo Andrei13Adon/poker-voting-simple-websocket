@@ -12,6 +12,15 @@
     <artifactId>poker-voting-client</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.glassfish.tyrus</groupId>
+            <artifactId>tyrus-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.tyrus</groupId>
+            <artifactId>tyrus-container-grizzly-server</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

@@ -1,0 +1,3 @@
+https://medium.com/@malindurnawarathne/creating-a-websocket-in-java-cb637bcf401f
+
+https://eclipse-ee4j.github.io/tyrus-project.github.io/documentation/latest/index/getting-started.html#websocket-client-endpoint

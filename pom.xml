@@ -19,6 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <web.socket.version>2.1.4</web.socket.version>
 
         <!-- plugin version -->
         <maven.assembly.plugin.version>3.6.0</maven.assembly.plugin.version>
@@ -26,6 +27,23 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.glassfish.tyrus</groupId>
+                <artifactId>tyrus-client</artifactId>
+                <version>${web.socket.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.glassfish.tyrus</groupId>
+                <artifactId>tyrus-server</artifactId>
+                <version>${web.socket.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.glassfish.tyrus</groupId>
+                <artifactId>tyrus-container-grizzly-server</artifactId>
+                <version>${web.socket.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     
